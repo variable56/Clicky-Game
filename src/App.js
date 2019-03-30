@@ -15,8 +15,6 @@ class App extends Component {
       score: 0
     };
   }
-  
-
 
   handleClick = () => {
     console.log('this is:', this);
@@ -24,6 +22,10 @@ class App extends Component {
     score++;
     this.setState({score: score});
     console.log(this.state.score);
+    function randomize(a, b) {
+      return Math.random() - 0.5;
+  }
+    this.state.cards.sort(randomize)
   }
 
 
@@ -41,7 +43,6 @@ class App extends Component {
           key={card.id}
           name={card.name}
           image={card.image}
-         
           handleClick={this.handleClick}
         />
       ))};
