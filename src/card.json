@@ -2,67 +2,74 @@
     {
       "id": 1,
       "name": "SpongeBob",
-      "image": "https://media.giphy.com/media/zZILm2XOM8Wsg/giphy.gif"
+      "image": "https://media.giphy.com/media/zZILm2XOM8Wsg/giphy.gif",
+      "clicked": false
     },
     {
       "id": 2,
       "name": "Mr. Krabs",
-      "image": "https://i.gifer.com/33Hg.gif"
+      "image": "https://i.gifer.com/33Hg.gif",
+      "clicked": false
     },
     {
       "id": 3,
       "name": "Squidward",
-      "image": "https://media.giphy.com/media/wn8rVP7qC8TNC/giphy.gif"
+      "image": "https://media.giphy.com/media/wn8rVP7qC8TNC/giphy.gif",
+      "clicked": false
     },
     {
       "id": 4,
       "name": "Squidward",
-      "image": "https://media.giphy.com/media/dQpqkxXyPvb2iImius/giphy.gif"
+      "image": "https://media.giphy.com/media/dQpqkxXyPvb2iImius/giphy.gif",
+      "clicked": false
     },
     {
       "id": 5,
       "name": "Squidward",
-      "image": "https://media.giphy.com/media/3Z3GtaRZzwbx6/giphy.gif"
-    },
-    {
-      "id": 5,
-      "name": "Squidward",
-      "image": "https://media.giphy.com/media/bkfBOWA7cfPPNLTIqE/giphy.gif"
+      "image": "https://media.giphy.com/media/bkfBOWA7cfPPNLTIqE/giphy.gif",
+      "clicked": false
     },
     {
       "id": 6,
       "name": "Squidward",
-      "image": "https://media.giphy.com/media/TeBpzQZRaBIC4/giphy.gif"
+      "image": "https://media.giphy.com/media/TeBpzQZRaBIC4/giphy.gif",
+      "clicked": false
     },
     {
       "id": 7,
       "name": "Squidward",
-      "image": "https://media.giphy.com/media/wHB0w8SD0zCoUGjyMS/giphy.gif"
+      "image": "https://media.giphy.com/media/wHB0w8SD0zCoUGjyMS/giphy.gif",
+      "clicked": false
     },
     {
       "id": 8,
       "name": "Squidward",
-      "image": "https://media.giphy.com/media/12jzJ3iOw9rA9a/giphy.gif"
+      "image": "https://media.giphy.com/media/12jzJ3iOw9rA9a/giphy.gif",
+      "clicked": false
     },
     {
       "id": 9,
       "name": "Squidward",
-      "image": "https://i.gifer.com/SE2.gif"
+      "image": "https://i.gifer.com/SE2.gif",
+      "clicked": false
     },
     {
       "id": 10,
       "name": "Squidward",
-      "image": "https://media.giphy.com/media/9FpDeOvKOts5y/giphy.gif"
+      "image": "https://media.giphy.com/media/9FpDeOvKOts5y/giphy.gif",
+      "clicked": false
     },
     {
       "id": 11,
       "name": "Squidward",
-      "image": "https://media.giphy.com/media/1NY2Ks7Ht4Oty/giphy.gif"
+      "image": "https://media.giphy.com/media/1NY2Ks7Ht4Oty/giphy.gif",
+      "clicked": false
     },
     {
       "id": 12,
       "name": "Squidward",
-      "image": "https://media.giphy.com/media/orMC1n910hdIc/giphy.gif"
+      "image": "https://media.giphy.com/media/orMC1n910hdIc/giphy.gif",
+      "clicked": false
     }
     
   ]
