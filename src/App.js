@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-// import Nav from './components/navbar/index'
+import Nav from './components/navbar/index'
 import ImgContainer from './components/images'
 import Card from './components/card'
 import cards from './card.json'
+import Jumbo from './components/jumbotron'
 import './App.css';
 
 class App extends Component {
@@ -11,9 +12,12 @@ class App extends Component {
     cards
   };
 
+
   render() {
     return (
-      
+      <div>
+      <Nav/>
+      <Jumbo/>
       <ImgContainer>
       {this.state.cards.map(card => (
         <Card
@@ -24,6 +28,7 @@ class App extends Component {
         />
       ))};
       </ImgContainer>
+      </div>
     );
   };
 };

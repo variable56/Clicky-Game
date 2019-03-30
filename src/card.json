@@ -6,6 +6,12 @@
       "clicked": false
     },
     {
+        "id": 4,
+        "name": "Squidward",
+        "image": "https://media.giphy.com/media/dQpqkxXyPvb2iImius/giphy.gif",
+        "clicked": false
+      },
+    {
       "id": 2,
       "name": "Mr. Krabs",
       "image": "https://i.gifer.com/33Hg.gif",
@@ -15,12 +21,6 @@
       "id": 3,
       "name": "Squidward",
       "image": "https://media.giphy.com/media/wn8rVP7qC8TNC/giphy.gif",
-      "clicked": false
-    },
-    {
-      "id": 4,
-      "name": "Squidward",
-      "image": "https://media.giphy.com/media/dQpqkxXyPvb2iImius/giphy.gif",
       "clicked": false
     },
     {
@@ -60,11 +60,11 @@
       "clicked": false
     },
     {
-      "id": 11,
-      "name": "Squidward",
-      "image": "https://media.giphy.com/media/1NY2Ks7Ht4Oty/giphy.gif",
-      "clicked": false
-    },
+        "id": 11,
+        "name": "Squidward",
+        "image": "https://media.giphy.com/media/1NY2Ks7Ht4Oty/giphy.gif",
+        "clicked": false
+      },
     {
       "id": 12,
       "name": "Squidward",

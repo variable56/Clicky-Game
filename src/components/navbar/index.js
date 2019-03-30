@@ -3,10 +3,8 @@ import "./style.css";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-dark bg-dark">
-      <a className="navbar-brand" href="/">
-        This is the Navbar Title for the Clicky Game
-      </a>
+    <nav className="bg-dark navbar-fixed-top">
+      <div className="navbar-text text-light p-4">React Memory Game</div>
     </nav>
   );
 }

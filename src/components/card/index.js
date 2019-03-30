@@ -5,8 +5,8 @@ class Card extends React.Component {
 
 render() {
   return (
-    <div className="card">
-      <div className="img-container d-flex">
+    <div>
+      <div className="img-container d-flex container">
         <img alt={this.props.name} src={this.props.image} />
       </div>
       {/* <span onClick={() => props.removeFriend(props.id)} className="remove">
