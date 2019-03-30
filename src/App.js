@@ -8,15 +8,31 @@ import './App.css';
 
 class App extends Component {
 
-  state = {
-    cards
-  };
+  constructor(props) {
+    super(props) 
+    this.state = {
+      cards,
+      score: 0
+    };
+  }
+  
+
+
+  handleClick = () => {
+    console.log('this is:', this);
+    let score = this.state.score;
+    score++;
+    this.setState({score: score});
+    console.log(this.state.score);
+  }
 
 
   render() {
     return (
       <div>
-      <Nav/>
+      <Nav
+       score={this.state.score}
+      />
       <Jumbo/>
       <ImgContainer>
       {this.state.cards.map(card => (
@@ -25,6 +41,8 @@ class App extends Component {
           key={card.id}
           name={card.name}
           image={card.image}
+         
+          handleClick={this.handleClick}
         />
       ))};
       </ImgContainer>
